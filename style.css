@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  color: rgb(243, 240, 237);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+
+}
+.container{
+  height: 90vh;
+  width: 90vw;
+  margin: 60px;
+  /* margin-top: 4rem; */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 16px;
+  justify-content: center;
+  align-content: center;
+  /* margin-bottom: 110px; */
+  /* column-gap:7px; */
+}
+.box{
+  height: 45vh;
+  width: 29vw;
+  border: 2px solid white;
+  background-color: white;
+  padding: 40px;
+  border-radius: 3%;
+  /* margin: 30px auto; */
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.box:hover{
+  transform: scale(1.03);
+}
+
+body{
+  background: linear-gradient(to right, #020224, #b94eeb);
+}
+.image{
+  height: 95px;
+  width: 95px;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.box h1{
+  /* margin-top: 1.5rem; */
+  text-align: center;
+  font-size: xx-large;
+  color: rgb(12, 0, 0);
+}
+.button{
+  width: 10rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  padding: 7px;
+  margin-top: 20px;
+  border-radius: 5px;
+  /* padding: 8px; */
+  font-size: 18px;
+}
+.box:hover{
+  size: larger;
+  
+}
+.para{
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

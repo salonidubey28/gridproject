@@ -1,0 +1,32 @@
+/* /* /* small screens and laptops */
+@media (main-width: 769px) and (max-width: 1024px){
+    /* css styles for small screens and laptops */
+    html{
+        font-size: 10px;
+    }
+    .active{
+    grid-template-columns:  1fr 1fr; 
+    } 
+}
+
+/* ipads, tables */
+@media (min-width: 481px) and (max-width: 768px) {
+    /* css styles for ipads and  tablets */
+    /* css styles for small screens and laptops */
+    html{ 
+        font-size: 12px;
+    } 
+    .active{
+        padding: 15px 25px 80px 25px;
+        grid-template-columns:  1fr 1fr;  
+    }
+    .box-active{
+        grid-template-columns: 1fr;
+    }
+    .box{
+        padding: 15px 5px;
+    }
+}    
+/* mobile devices */
+@media (min-width: 320px) and (max-width: 480px){
+    /* css styles for mobile devices …
